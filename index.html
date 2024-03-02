@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Random password Generator</h2>
+        <div class="main_div">
+            <div class="PasswordDisplayerDiv"> 
+                <p class="displayPassword">********</p>
+                <button class="copyBtn dNone">Copy</button>
+            </div>
+            <form class="form">
+                <div class="checkbox_div">
+                    <label for="length-input">Password length:</label>
+                    <input type="number" id="length-input" placeholder="8-15" min="0" max="2">
+                </div>
+                <span class="errorInput"></span>
+                <span class="errorCheckbox"></span>
+                <div class="checkbox_div">
+                    <label for="uppercase">Include Uppercase ?</label>
+                    <input type="checkbox" id="uppercase" class="checkbox">
+                </div>
+                <div class="checkbox_div">
+                    <label for="lowercase">Include Lowercase ?</label>
+                    <input type="checkbox" id="lowercase" class="checkbox">
+                </div>
+                <div class="checkbox_div">
+                    <label for="numbers">Include Numbers ?</label>
+                    <input type="checkbox" id="numbers" class="checkbox">
+                </div>
+                <div class="checkbox_div">
+                    <label for="characters">Include Characters ?</label>
+                    <input type="checkbox" id="characters" class="checkbox">
+                </div>
+            </form>
+        </div>
+        <button class="submit">Create Password</button>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
