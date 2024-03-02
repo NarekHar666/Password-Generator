@@ -84,7 +84,6 @@ h2{
 }
 
 .checkbox_div{
-    /* border: 1px solid green; */
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -93,6 +92,10 @@ h2{
 
 .checkbox_div input{
     width: clamp(18px,2vw,1.5rem);
+}
+
+.checkbox{
+    cursor: pointer;
 }
 
 label{

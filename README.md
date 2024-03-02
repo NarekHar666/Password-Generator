@@ -5,6 +5,9 @@
 This is a simple web application that allows users to generate secure passwords based on their preferences. The generated passwords can include a mix of lowercase letters, uppercase letters, numbers, and symbols.
 
 
+![HTML](https://img.shields.io/badge/HTML-5-orange)
+![CSS](https://img.shields.io/badge/CSS-3-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-blue)
 
 [Try online](https://narekhar666.github.io/Password-Generator/) or clone the repository to your local machine.
 
